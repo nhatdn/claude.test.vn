@@ -3,7 +3,24 @@
     "allow": [
       "mcp__claude_ai_Figma__get_design_context",
       "Bash(npm run *)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(git checkout *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --base production --head feature/ui --title 'feat: Add AttractionList UI - Danh sách điểm tham quan' --body ' *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(gh pr create --base production --head feature/ui --title 'feat: AttractionList UI - Danh sách điểm tham quan' --body ' *)",
+      "Read(//Users/mac/.claude/**)",
+      "Bash(npm install *)",
+      "Bash(mkdir -p /Users/mac/HEIMAT/labs/claude/my-react-app/scripts)",
+      "Bash(mkdir -p /Users/mac/HEIMAT/labs/claude/my-react-app/.claude/commands)",
+      "Bash(npx tsx *)",
+      "Bash(gh pr *)",
+      "Bash(mkdir -p /Users/mac/HEIMAT/labs/claude/my-react-app/.claude/agents)"
+    ],
+    "additionalDirectories": [
+      "/Users/mac/HEIMAT/labs/claude/my-react-app/.claude"
     ]
   }
 }
