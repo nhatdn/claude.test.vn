@@ -13,10 +13,6 @@ reviews:
 
   poem: false
 
-  finishing_touches:
-    docstrings:
-      enabled: false
-
   high_level_summary_instructions: |
     After the standard summary, always append a PR Scorecard section.
     Use this exact format — no exceptions, even for small or trivial PRs:
