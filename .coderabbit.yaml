@@ -46,6 +46,20 @@ reviews:
       instructions: |
         When finishing the review, contribute scores for the PR Scorecard:
         Overall Quality, Performance, Security, and Maintainability — each on a 1–10 scale.
+        You MUST include a PR Scorecard in your review output.
+
+        REQUIRED FORMAT:
+
+        ## PR Scorecard
+
+        | Category        | Score | Notes |
+        |-----------------|-------|-------|
+        | Overall Quality | X/10  | ...   |
+        | Performance     | X/10  | ...   |
+        | Security        | X/10  | ...   |
+        | Maintainability | X/10  | ...   |
+
+        This section is mandatory and must never be omitted.
 
   finishing_touches:
     unit_tests:
