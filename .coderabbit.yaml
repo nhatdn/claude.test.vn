@@ -1,8 +1,12 @@
-reviews:
-  enabled: true
-  auto_review: true
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
 
-rules:
-  - security
-  - performance
-  - readability
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false   # không review PR draft
+
+  request_changes_workflow: true
+
+  high_level_summary: true
+
+  review_status: true
