@@ -1,0 +1,8 @@
+reviews:
+  enabled: true
+  auto_review: true
+
+rules:
+  - security
+  - performance
+  - readability
